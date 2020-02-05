@@ -60,9 +60,9 @@ namespace TransliterateTextNames
             }
             // Подвисает взаимодействие с символами в E3
             e3App = null;
-            App = null;          
-
-            Console.ReadLine();
+            App = null;
+            
+            Debug.Flush();            
         }
     }
 }
